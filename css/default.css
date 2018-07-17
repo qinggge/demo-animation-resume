@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,li{
+    list-style: none;
+}
+.token.selector{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.function{
+    color: black;
+}
+#code{
+    height: 90vh;
+    overflow: auto;
+}
+#paper > pre{
+    padding: 16px;
+}
+
+/* 这里不过是一些注释 */
