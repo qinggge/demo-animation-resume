@@ -1,6 +1,9 @@
 /* 把code写到#code和style标签里 */
 var result = `/*
- * 这里不过是一些注释
+ * 你好
+ * 这是我的一个简历作品
+ * 希望你会喜欢
+ * 请耐心观看
  */
 
 *{
@@ -167,7 +170,7 @@ function writeCode(prefix, code, fn){
           window.clearInterval(id)
           fn.call()
         }
-    },50) 
+    },30) 
 }
 
 function writeMarkdown(markdown,fn){
@@ -181,7 +184,7 @@ function writeMarkdown(markdown,fn){
             window.clearInterval(id)
             fn.call()
         }
-    },50) 
+    },30) 
 }
 
 function createPaper(fn){
